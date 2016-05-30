@@ -11,6 +11,10 @@
 		5433895D1CF8349D00EBEB27 /* TongXuLuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433895C1CF8349D00EBEB27 /* TongXuLuController.swift */; };
 		5433895F1CF834AC00EBEB27 /* FindController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433895E1CF834AC00EBEB27 /* FindController.swift */; };
 		543389611CF834B800EBEB27 /* MeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543389601CF834B800EBEB27 /* MeController.swift */; };
+		547360481CFBED9A00CA9FF3 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547360471CFBED9A00CA9FF3 /* MessageCell.swift */; };
+		547360501CFC2B1B00CA9FF3 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5473604F1CFC2B1B00CA9FF3 /* MessageModel.swift */; };
+		547360561CFC2EB600CA9FF3 /* MessageDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547360551CFC2EB600CA9FF3 /* MessageDataManager.swift */; };
+		547360581CFC339B00CA9FF3 /* MessageDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547360571CFC339B00CA9FF3 /* MessageDetailController.swift */; };
 		54831DA61CF8283C00AA2DA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54831DA51CF8283C00AA2DA7 /* AppDelegate.swift */; };
 		54831DA81CF8283C00AA2DA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54831DA71CF8283C00AA2DA7 /* ViewController.swift */; };
 		54831DAB1CF8283C00AA2DA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54831DA91CF8283C00AA2DA7 /* Main.storyboard */; };
@@ -43,6 +47,10 @@
 		5433895C1CF8349D00EBEB27 /* TongXuLuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TongXuLuController.swift; sourceTree = "<group>"; };
 		5433895E1CF834AC00EBEB27 /* FindController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindController.swift; sourceTree = "<group>"; };
 		543389601CF834B800EBEB27 /* MeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeController.swift; sourceTree = "<group>"; };
+		547360471CFBED9A00CA9FF3 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		5473604F1CFC2B1B00CA9FF3 /* MessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		547360551CFC2EB600CA9FF3 /* MessageDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDataManager.swift; sourceTree = "<group>"; };
+		547360571CFC339B00CA9FF3 /* MessageDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDetailController.swift; sourceTree = "<group>"; };
 		54831DA21CF8283C00AA2DA7 /* StoryBoardDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryBoardDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54831DA51CF8283C00AA2DA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54831DA71CF8283C00AA2DA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +126,10 @@
 				5433895E1CF834AC00EBEB27 /* FindController.swift */,
 				543389601CF834B800EBEB27 /* MeController.swift */,
 				54D632681CF84C550064F172 /* CustomTabarController.swift */,
+				547360471CFBED9A00CA9FF3 /* MessageCell.swift */,
+				5473604F1CFC2B1B00CA9FF3 /* MessageModel.swift */,
+				547360551CFC2EB600CA9FF3 /* MessageDataManager.swift */,
+				547360571CFC339B00CA9FF3 /* MessageDetailController.swift */,
 			);
 			path = StoryBoardDemo2;
 			sourceTree = "<group>";
@@ -272,11 +284,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				54D632691CF84C550064F172 /* CustomTabarController.swift in Sources */,
+				547360481CFBED9A00CA9FF3 /* MessageCell.swift in Sources */,
 				5433895B1CF82F2700EBEB27 /* WeiXinController.swift in Sources */,
 				5433895D1CF8349D00EBEB27 /* TongXuLuController.swift in Sources */,
 				54831DA81CF8283C00AA2DA7 /* ViewController.swift in Sources */,
+				547360561CFC2EB600CA9FF3 /* MessageDataManager.swift in Sources */,
 				543389611CF834B800EBEB27 /* MeController.swift in Sources */,
 				5433895F1CF834AC00EBEB27 /* FindController.swift in Sources */,
+				547360581CFC339B00CA9FF3 /* MessageDetailController.swift in Sources */,
+				547360501CFC2B1B00CA9FF3 /* MessageModel.swift in Sources */,
 				54831DA61CF8283C00AA2DA7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
