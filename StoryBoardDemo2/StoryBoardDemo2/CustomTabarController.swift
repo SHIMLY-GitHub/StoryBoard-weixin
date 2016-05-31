@@ -13,15 +13,15 @@ class CustomTabarController: UITabBarController {
     
     var selectButton: UIButton!
     
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
       let rect =   self.tabBar.frame;
-        
+        self.tabBar.hidden = true;
     
-        
         self.tabBar.removeFromSuperview();
-        let customView = UIView(frame: rect);
+        let  customView = UIView(frame: rect);
         customView.backgroundColor = UIColor(colorLiteralRed: 246.0 / 255.0, green: 246.0/255.0, blue: 247.0/255.0, alpha: 1);
         self.view.addSubview(customView);
         
@@ -70,6 +70,9 @@ class CustomTabarController: UITabBarController {
         
         
     }
+    
+   
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -77,14 +80,5 @@ class CustomTabarController: UITabBarController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

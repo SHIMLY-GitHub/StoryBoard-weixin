@@ -55,13 +55,15 @@ class WeiXinController: UIViewController,UITableViewDataSource,UITableViewDelega
         let messageModel = self.dataSource[row];
         
         let detailController = segue.destinationViewController as! MessageDetailController;
+           detailController.hidesBottomBarWhenPushed = true;
         detailController.title = messageModel.name;
+     
         
-        
-        
+
         
         
     }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

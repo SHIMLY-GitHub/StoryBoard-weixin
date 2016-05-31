@@ -23,6 +23,7 @@
 		54831DBB1CF8283C00AA2DA7 /* StoryBoardDemo2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54831DBA1CF8283C00AA2DA7 /* StoryBoardDemo2Tests.swift */; };
 		54831DC61CF8283C00AA2DA7 /* StoryBoardDemo2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54831DC51CF8283C00AA2DA7 /* StoryBoardDemo2UITests.swift */; };
 		54D632691CF84C550064F172 /* CustomTabarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D632681CF84C550064F172 /* CustomTabarController.swift */; };
+		54E1D08B1CFD5D6F00C84506 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E1D08A1CFD5D6F00C84506 /* CustomNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		54831DC51CF8283C00AA2DA7 /* StoryBoardDemo2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoardDemo2UITests.swift; sourceTree = "<group>"; };
 		54831DC71CF8283C00AA2DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54D632681CF84C550064F172 /* CustomTabarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabarController.swift; sourceTree = "<group>"; };
+		54E1D08A1CFD5D6F00C84506 /* CustomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				5473604F1CFC2B1B00CA9FF3 /* MessageModel.swift */,
 				547360551CFC2EB600CA9FF3 /* MessageDataManager.swift */,
 				547360571CFC339B00CA9FF3 /* MessageDetailController.swift */,
+				54E1D08A1CFD5D6F00C84506 /* CustomNavigationController.swift */,
 			);
 			path = StoryBoardDemo2;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54E1D08B1CFD5D6F00C84506 /* CustomNavigationController.swift in Sources */,
 				54D632691CF84C550064F172 /* CustomTabarController.swift in Sources */,
 				547360481CFBED9A00CA9FF3 /* MessageCell.swift in Sources */,
 				5433895B1CF82F2700EBEB27 /* WeiXinController.swift in Sources */,
